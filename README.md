@@ -1,5 +1,6 @@
 [查看在线效果](http://www.baidu.com)
-###neoslide是一款灵活的jQuery轮播插件，具体特性如下 
+**neoslide是一款灵活的jQuery轮播插件，采用面向对象编写，扩展性强**
+####特性如下 
 * 跨浏览器支持：`支持IE8+` `火狐` `谷歌` `欧鹏`等主流浏览器
 * 你可以随便添加图片个数，而不用改变HTML文档结构
 * 支持自定义方向的`左右无缝滑动`，和`淡入淡入效果`
@@ -9,11 +10,11 @@
 * 可在此基础上扩展和编写自己喜欢的渐变动画以及其他模块
 
 ####
-###如何使用neoslide
+####如何使用neoslide
 Step1:引入<strong>jQuery</strong>,<strong>neoslide</strong>和<strong>css</strong>样式表
 ```javascript
 <script src="js/jquery-1.12.3.min.js"></script>
-<script src="jquery.neoslide.js"></script>
+<script src="js/jquery.neoslide.js"></script>
 <link rel="stylesheet" href="css/neoslide.css"/>
 ```
 Step2:准备<strong>HTML</strong>代码
@@ -36,12 +37,12 @@ Step3：调用插件
 
 ```javascript
 $(function() {
-    $('.banner').neoslide();//在这里你需要传入参数配置，请看下面介绍
+    $('.banner').neoslide();//在这里需要传入参数配置，请看下面介绍
 });
 ```
 
 ====
-###参数配置
+####参数配置
 ````javascript
 $(function(){
     $('div.banner').neoslide({
@@ -63,6 +64,10 @@ $(function(){
     });
 });
 ````
+
+===
+#####至此你已经完成了所有的参数配置，一个灵活的轮播就可以放在你的网站上了，是不是很简答呢，赶紧拥有它,如果你有好的建议，欢迎协助开发 0.0
+
 
 
 
