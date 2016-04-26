@@ -1,4 +1,4 @@
-[查看在线效果](http://www.baidu.com)
+[查看在线效果](http://http://www.neove.cc/neoslide/test.html)
 **neoslide是一款灵活的jQuery轮播插件，采用面向对象编写，扩展性强**
 ####特性如下 
 * 跨浏览器支持：`支持IE8+` `火狐` `谷歌` `欧鹏`等主流浏览器
@@ -48,11 +48,11 @@ $(function(){
     $('div.banner').neoslide({
         'w':'1390',         //轮播区域的宽度(必选项)
         'h':'450',          //轮播区域的高度(必选项)
-        'direction':'right',//轮播方向，默认为right
-        'delay':'4000',     //中间间隔时间，默认为4s
-        'type':'slide',     //轮播方式,默认为滑动default slide
+        'direction':'right',//轮播方向left或者right，默认为right
+        'delay':'4000',     //中间间隔时间，单位毫秒，默认4000
+        'type':'slide',     //轮播方式：slide或者fadeIn,默认为slide
         'bot_list':true,    //顶部图片信息介绍，参数为布尔值(必选项)
-        'top_info':true,    //顶部列表(必选项)
+        'top_info':true,    //顶部列表，参数布尔值(必选项)
         //下面配置你的图片信息(必选项)
         'img':[
         {
