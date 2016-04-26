@@ -52,7 +52,7 @@ $(function(){
         'delay':'4000',     //中间间隔时间，单位毫秒，默认4000
         'type':'slide',     //轮播方式：slide或者fadeIn,默认为slide
         'bot_list':true,    //顶部图片信息介绍，参数为布尔值(必选项)
-        'top_info':true,    //顶部列表，参数布尔值(必选项)
+        'top_info':true,    //底部列表，参数布尔值(必选项)
         //下面配置你的图片信息(必选项)
         'img':[
         {
