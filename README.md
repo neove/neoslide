@@ -1,4 +1,4 @@
-[查看在线效果](http://http://www.neove.cc/neoslide/test.html)
+[查看在线效果](http://www.neove.cc/neoslide/test.html)
 **neoslide是一款灵活的jQuery轮播插件，采用面向对象编写，扩展性强**
 ####特性如下 
 * 跨浏览器支持：`支持IE8+` `火狐` `谷歌` `欧鹏`等主流浏览器
