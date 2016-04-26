@@ -212,7 +212,7 @@
                 that.top.find('p').text(that.info[that.num%that.info.length].top);
             });
         };
-        $.fn.neoSlide=function(data){
+        $.fn.neoslide=function(data){
             var a=new Banner(data);
             return a;
 
