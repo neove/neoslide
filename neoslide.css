@@ -21,7 +21,6 @@ div.banner{
     position: relative;
     overflow: hidden; 
     margin: auto;
-
 }
 div.banner ul{
     position: absolute;
@@ -29,7 +28,7 @@ div.banner ul{
 div.banner ul li{
     float: left;
 }
-/**********2.begin the style of top and bottom information**************/
+/**********2.begin the style of top information**************/
 div.top{
     width: 100%;
     position: absolute;
@@ -70,7 +69,7 @@ ul li.curr{
     left: 0;
     background: #ff0;
 }
-/**********3.begin the style of preview img**************/
+/**********4.begin the style of preview img**************/
 img.prew-img{
     position: absolute;
     border:2px solid #f60; 
@@ -79,7 +78,6 @@ img.prew-img{
     -ms-transition: all 0.3s;
     -o-transition: all 0.3s;
     transition: all 0.3s;
+    display:none;
 }
-
-
 
