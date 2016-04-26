@@ -1,0 +1,85 @@
+/**********1.begin the style of ul**************/
+html, body, div, ul, li,p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: baseline;
+    text-decoration: none;
+    list-style-type: none;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+}
+li{
+    list-style: none;
+}
+div.banner-wrap{
+    position: relative;
+    overflow: hidden;
+}
+div.banner{
+    position: relative;
+    overflow: hidden; 
+    margin: auto;
+
+}
+div.banner ul{
+    position: absolute;
+}
+div.banner ul li{
+    float: left;
+}
+/**********2.begin the style of top and bottom information**************/
+div.top{
+    width: 100%;
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    display: none;
+    height: 8%;
+    background: rgba(204,102,102,.4);
+    top: 0;
+    line-height: 40px;
+}
+
+/**********3.begin the style of list**************/
+
+ul.list{
+    margin: 0 auto;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;    
+    display: none;
+}
+ul.list li{
+    width: 15px;
+    height: 15px;
+    border: 1px solid #6ff;
+    border-radius: 50%;
+    margin-right: 15px;
+    cursor: pointer;
+}
+ul.list li:hover{
+     -webkit-box-shadow: inset 0 0 1px 4px #9FF;
+    -moz-box-shadow:     inset 0 0 1px 4px #9FF;
+    box-shadow:          inset 0 0 1px 4px #9FF;
+}
+ul li.curr{
+    border-color: #ff0;
+    position: absolute;
+    left: 0;
+    background: #ff0;
+}
+/**********3.begin the style of preview img**************/
+img.prew-img{
+    position: absolute;
+    border:2px solid #f60; 
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+
+
