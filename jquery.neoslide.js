@@ -159,8 +159,8 @@
                 if($(this).hasClass('curr'))a=that.list_num;              
                 that.prew_img.css({
                 // the positsion and transition of the preview img
-                'left':$(this).offset().left-that.data.w/12,
-                'top':$(this).offset().top-that.data.h/6-15,
+                'left':$(this).offset().left-that.data.w/12-$('div.banner-wrap').offset().left,
+                'top':$(this).offset().top-that.data.h/6-15-$('div.banner-wrap').offset().top,
                 '-webkit-transform': 'rotate3d(0,1,0,0deg)',
                 '-moz-transform':   ' rotate3d(0,1,0,0deg)',
                 '-ms-transform':    ' rotate3d(0,1,0,0deg)',
